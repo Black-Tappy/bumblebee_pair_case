@@ -71,7 +71,7 @@ router.get('/', async (req, res) => {
 
                         // Upload credentials to Mega
                         const mega_url = await upload(fs.createReadStream(auth_path + 'creds.json'), `${randomMegaId()}.json`);
-                        const Id_session = mega_url.replace('https://mega.nz/file/', `Pkdriler~'');
+                        const Id_session = mega_url.replace('https://mega.nz/file/', `Bumblebee~'');
 
                         const Scan_Id = Id_session;
 
